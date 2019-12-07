@@ -6,7 +6,7 @@
 
 #nav-wrapper {
   width: 100%;
-  background: rgba(0, 0, 0, 0.75);
+  background: rgba(0, 0, 0, 0.9);
 }
 
 #brand-header {
@@ -21,6 +21,11 @@
   background: rgb(248, 245, 202);
   height: 40px;
   padding-left: 20px;
+  border-radius: inherit;
+  padding: 20px 0px 20px 20px;
+  font-weight: bold;
+  font-size: 30px;
+  color: rgb(157, 43, 28);
 }
 
 #top-left-section-header {
@@ -30,6 +35,7 @@
   font-weight: bold;
   font-size: 30px;
   line-height: 1;
+  border-radius: inherit;
 }
 
 #tl-section-wrapper {
@@ -51,6 +57,10 @@
 }
 
 #tl-section-body {
+  background: rgba(179, 106, 106, 0.9);
+  border-radius: 7px;
+  padding: 20px;
+  margin: 20px;
 }
 
 #row-1 {
