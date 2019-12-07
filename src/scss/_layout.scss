@@ -1,0 +1,38 @@
+#landing-headline {
+  background-image: url('../images/Speakers_on_shelf.jpg');
+  height: 650px;
+  font-family: 'Solway', serif;
+}
+
+#nav-wrapper {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.75);
+}
+
+#brand-header {
+  font-family: 'Solway', serif;
+  padding: 20px;
+  text-align: center;
+  color: white;
+  font-size: 35px;
+}
+
+#tl-section-wrapper {
+  margin: 20px 20px;
+  background: rgba(44, 10, 51, 0.9);
+  border-radius: 10px;
+  padding-bottom: 200px;
+  flex: 3;
+}
+
+#tr-section-wrapper {
+  flex: 1;
+}
+
+#top-section-header #top-section-body {
+}
+
+#row-1 {
+  flex-direction: row;
+  flex: 1;
+}
