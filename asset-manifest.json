@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.ea1dd6f8.chunk.css",
-    "main.js": "/static/js/main.0fb1ee0f.chunk.js",
-    "main.js.map": "/static/js/main.0fb1ee0f.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.f6dd6132.js",
-    "runtime-main.js.map": "/static/js/runtime-main.f6dd6132.js.map",
-    "static/js/2.f5f91fe1.chunk.js": "/static/js/2.f5f91fe1.chunk.js",
-    "static/js/2.f5f91fe1.chunk.js.map": "/static/js/2.f5f91fe1.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.1d4c694e375e3c7e83eeb906cae9fa20.js": "/precache-manifest.1d4c694e375e3c7e83eeb906cae9fa20.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.ea1dd6f8.chunk.css.map": "/static/css/main.ea1dd6f8.chunk.css.map",
-    "static/js/2.f5f91fe1.chunk.js.LICENSE": "/static/js/2.f5f91fe1.chunk.js.LICENSE",
-    "static/media/main.scss": "/static/media/Speakers_on_shelf.e9017bdb.jpg"
+    "main.css": "/handmade-audio/static/css/main.ff7ee911.chunk.css",
+    "main.js": "/handmade-audio/static/js/main.a060151c.chunk.js",
+    "main.js.map": "/handmade-audio/static/js/main.a060151c.chunk.js.map",
+    "runtime-main.js": "/handmade-audio/static/js/runtime-main.7b545a05.js",
+    "runtime-main.js.map": "/handmade-audio/static/js/runtime-main.7b545a05.js.map",
+    "static/js/2.f5f91fe1.chunk.js": "/handmade-audio/static/js/2.f5f91fe1.chunk.js",
+    "static/js/2.f5f91fe1.chunk.js.map": "/handmade-audio/static/js/2.f5f91fe1.chunk.js.map",
+    "index.html": "/handmade-audio/index.html",
+    "precache-manifest.afa83df019a023fcd1a1cef4f5ae5e4b.js": "/handmade-audio/precache-manifest.afa83df019a023fcd1a1cef4f5ae5e4b.js",
+    "service-worker.js": "/handmade-audio/service-worker.js",
+    "static/css/main.ff7ee911.chunk.css.map": "/handmade-audio/static/css/main.ff7ee911.chunk.css.map",
+    "static/js/2.f5f91fe1.chunk.js.LICENSE": "/handmade-audio/static/js/2.f5f91fe1.chunk.js.LICENSE",
+    "static/media/main.scss": "/handmade-audio/static/media/Speakers_on_shelf.e9017bdb.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.f6dd6132.js",
+    "static/js/runtime-main.7b545a05.js",
     "static/js/2.f5f91fe1.chunk.js",
-    "static/css/main.ea1dd6f8.chunk.css",
-    "static/js/main.0fb1ee0f.chunk.js"
+    "static/css/main.ff7ee911.chunk.css",
+    "static/js/main.a060151c.chunk.js"
   ]
 }
