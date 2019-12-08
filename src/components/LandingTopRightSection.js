@@ -3,7 +3,7 @@ import React from 'react';
 const LandingTopRightSection = () => {
   return (
     <div id='tr-section-wrapper'>
-      <div className='top-section-header'>Contact...</div>
+      <div className='top-section-header'>Contact</div>
       <div id='tr-section-body'>
         <div className='contact-row'>
           <i className='fas fa-phone'></i>
