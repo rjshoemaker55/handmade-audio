@@ -14,7 +14,7 @@ body {
   background-image: url('../images/Speakers_on_shelf.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-position-y: -200px;
+  background-position-y: -160px;
   overflow: scroll;
 }
 
@@ -26,7 +26,7 @@ body {
   text-shadow: 3px 3px rgb(179, 106, 106);
   text-align: center;
   border-radius: 7px;
-  margin: 200px auto 190px auto;
+  margin: 240px auto 190px auto;
   background: rgba(255, 255, 255, 0.8);
 }
 
@@ -39,12 +39,12 @@ body {
 }
 
 #brand-header {
-  font-family: 'Solway', serif;
-  padding: 10px;
-  font-weight: bold;
+  font-family: 'Pacifico', cursive;
+  padding: 0px;
+  letter-spacing: 3.5px;
   text-align: center;
   color: white;
-  font-size: 35px;
+  font-size: 45px;
 }
 
 .top-section-header {
@@ -95,4 +95,13 @@ body {
   flex-direction: row;
   flex: 1;
   background: transparent;
+}
+
+#footer {
+  position: fixed;
+  bottom: 0;
+  display: block;
+  height: 5px;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.9);
 }
