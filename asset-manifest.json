@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/handmade-audio/static/css/main.34571b5b.chunk.css",
-    "main.js": "/handmade-audio/static/js/main.a060151c.chunk.js",
-    "main.js.map": "/handmade-audio/static/js/main.a060151c.chunk.js.map",
+    "main.css": "/handmade-audio/static/css/main.b0de06e8.chunk.css",
+    "main.js": "/handmade-audio/static/js/main.655ceed8.chunk.js",
+    "main.js.map": "/handmade-audio/static/js/main.655ceed8.chunk.js.map",
     "runtime-main.js": "/handmade-audio/static/js/runtime-main.7b545a05.js",
     "runtime-main.js.map": "/handmade-audio/static/js/runtime-main.7b545a05.js.map",
     "static/js/2.f5f91fe1.chunk.js": "/handmade-audio/static/js/2.f5f91fe1.chunk.js",
     "static/js/2.f5f91fe1.chunk.js.map": "/handmade-audio/static/js/2.f5f91fe1.chunk.js.map",
     "index.html": "/handmade-audio/index.html",
-    "precache-manifest.7af30e7e9f37612ef2b921d11fa9f7e1.js": "/handmade-audio/precache-manifest.7af30e7e9f37612ef2b921d11fa9f7e1.js",
+    "precache-manifest.8c75d24f96cab17a6a98a2a69fe9d290.js": "/handmade-audio/precache-manifest.8c75d24f96cab17a6a98a2a69fe9d290.js",
     "service-worker.js": "/handmade-audio/service-worker.js",
-    "static/css/main.34571b5b.chunk.css.map": "/handmade-audio/static/css/main.34571b5b.chunk.css.map",
+    "static/css/main.b0de06e8.chunk.css.map": "/handmade-audio/static/css/main.b0de06e8.chunk.css.map",
     "static/js/2.f5f91fe1.chunk.js.LICENSE": "/handmade-audio/static/js/2.f5f91fe1.chunk.js.LICENSE",
     "static/media/main.scss": "/handmade-audio/static/media/Speakers_on_shelf.e9017bdb.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.7b545a05.js",
     "static/js/2.f5f91fe1.chunk.js",
-    "static/css/main.34571b5b.chunk.css",
-    "static/js/main.a060151c.chunk.js"
+    "static/css/main.b0de06e8.chunk.css",
+    "static/js/main.655ceed8.chunk.js"
   ]
 }
