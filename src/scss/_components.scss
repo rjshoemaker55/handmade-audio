@@ -5,3 +5,11 @@
 .flex-3 {
   flex: 3;
 }
+
+.contact-text {
+  margin: 10px 15px;
+}
+
+.contact-row + .contact-row {
+  margin: 15px 0px;
+}

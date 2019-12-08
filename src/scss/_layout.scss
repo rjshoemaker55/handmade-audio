@@ -1,45 +1,63 @@
-#landing-headline {
-  background-image: url('../images/Speakers_on_shelf.jpg');
-  height: 650px;
+body {
   font-family: 'Solway', serif;
+  background: rgb(34, 34, 34);
+}
+
+html,
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+.page-wrapper {
+  padding: 0px 20px;
+  background-image: url('../images/Speakers_on_shelf.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position-y: -200px;
+  overflow: scroll;
+}
+
+#landing-headline {
+  padding: 10px 10px;
+  width: 50%;
+  font-size: 50px;
+  color: black;
+  text-shadow: 3px 3px rgb(179, 106, 106);
+  text-align: center;
+  border-radius: 7px;
+  margin: 200px auto 190px auto;
+  background: rgba(255, 255, 255, 0.8);
 }
 
 #nav-wrapper {
   width: 100%;
   background: rgba(0, 0, 0, 0.9);
+  position: fixed;
+  top: 0;
+  transition: 0.5s;
 }
 
 #brand-header {
   font-family: 'Solway', serif;
-  padding: 20px;
+  padding: 10px;
+  font-weight: bold;
   text-align: center;
   color: white;
   font-size: 35px;
 }
 
-#top-right-section-header {
-  background: rgb(248, 245, 202);
-  height: 40px;
-  padding-left: 20px;
-  border-radius: inherit;
-  padding: 20px 0px 20px 20px;
-  font-weight: bold;
-  font-size: 30px;
-  color: rgb(157, 43, 28);
-}
-
-#top-left-section-header {
-  background: rgb(77, 17, 8);
+.top-section-header {
+  background: rgba(15, 15, 15, 0.9);
   padding: 20px 0px 20px 20px;
   color: white;
   font-weight: bold;
   font-size: 30px;
   line-height: 1;
-  border-radius: inherit;
+  border-radius: 7px 7px 0px 0px;
 }
 
 #tl-section-wrapper {
-  background: rgba(77, 17, 8, 0.9);
   border-radius: 7px;
   padding-bottom: 200px;
   flex: 3;
@@ -48,7 +66,6 @@
 
 #tr-section-wrapper {
   flex: 1;
-  background: rgba(248, 245, 202, 0.9);
   border-radius: 7px;
   padding-bottom: 200px;
   flex: 1;
@@ -57,15 +74,25 @@
 }
 
 #tl-section-body {
-  background: rgba(179, 106, 106, 0.9);
-  border-radius: 7px;
-  padding: 20px;
-  margin: 20px;
+  background: rgba(77, 17, 8, 0.9);
+  border-radius: 0px 0px 7px 7px;
+  padding: 25px;
+  color: white;
+  font-size: 30px;
+  line-height: 1.4;
+}
+
+#tr-section-body {
+  background: rgba(248, 245, 202, 0.9);
+  border-radius: 0px 0px 7px 7px;
+  padding: 25px 10px;
+  color: black;
+  font-size: 20px;
 }
 
 #row-1 {
   display: flex;
   flex-direction: row;
   flex: 1;
-  margin: 20px 20px;
+  background: transparent;
 }
