@@ -70,7 +70,6 @@ body {
   flex: 1;
   border-radius: 7px;
   padding-bottom: 200px;
-  flex: 1;
   margin-left: 20px;
   height: 500px;
 }
@@ -82,6 +81,7 @@ body {
   color: white;
   font-size: 30px;
   line-height: 1.4;
+  border-top: white 2px solid;
 }
 
 #tr-section-body {
@@ -90,6 +90,7 @@ body {
   padding: 25px 20px;
   color: black;
   font-size: 25px;
+  border-top: white 2px solid;
 }
 
 #row-1 {
