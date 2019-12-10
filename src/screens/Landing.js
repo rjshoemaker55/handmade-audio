@@ -11,7 +11,7 @@ const Landing = () => {
       <div id='landing-bg-image'>
         <div className='page-wrapper'>
           <div id='landing-headline'>High-end audio solutions.</div>
-          <div id='row-1'>
+          <div className='row'>
             <LandingTopLeftSection />
             <LandingTopRightSection />
           </div>

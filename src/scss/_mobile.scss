@@ -1,0 +1,35 @@
+@media screen and (max-width: 600px) {
+  #nav-text {
+    font-size: 50px;
+    line-height: 1.2;
+    padding: 10px;
+  }
+
+  #landing-headline {
+    width: 100%;
+    margin: 220px auto 80px auto;
+  }
+
+  .row {
+    flex-direction: column;
+  }
+
+  .top-section-wrapper {
+    width: 100%;
+    margin: 20px auto;
+    padding-bottom: 0px;
+  }
+
+  .top-section-wrapper + .top-section-wrapper {
+    margin-left: 0px;
+  }
+
+  #tl-section-body {
+    font-size: 20px;
+  }
+
+  #tr-section-body {
+    font-size: 20px;
+    padding: 3px;
+  }
+}
