@@ -18,6 +18,7 @@ body {
   overflow: scroll;
 }
 
+// Sub header text on landing page
 #landing-headline {
   padding: 10px 10px;
   width: 50%;
@@ -32,12 +33,13 @@ body {
   box-sizing: border-box;
 }
 
+//  Navbar section
 #nav-wrapper {
   width: 100%;
   background: rgba(0, 0, 0, 0.9);
   position: fixed;
   top: 0;
-  transition: 0.5s;
+  transition: 0.4s;
 }
 
 #nav-text {
@@ -50,6 +52,7 @@ body {
   font-style: italic;
 }
 
+// Top section
 .top-section-header {
   background: rgba(15, 15, 15, 0.9);
   padding: 20px 0px 20px 20px;
@@ -88,6 +91,7 @@ body {
   border-top: white 2px solid;
 }
 
+// Footer section
 #footer {
   position: fixed;
   bottom: 0;

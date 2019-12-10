@@ -7,7 +7,7 @@ const Navbar = () => {
     if (prevScrollpos > currentScrollPos) {
       document.getElementById('nav-wrapper').style.top = '0';
     } else {
-      document.getElementById('nav-wrapper').style.top = '-80px';
+      document.getElementById('nav-wrapper').style.top = '-180px';
     }
     prevScrollpos = currentScrollPos;
   };

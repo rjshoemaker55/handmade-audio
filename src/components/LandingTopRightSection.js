@@ -2,7 +2,7 @@ import React from 'react';
 
 const LandingTopRightSection = () => {
   return (
-    <div className='top-section-wrapper flex-2'>
+    <div className='top-section-wrapper flex-2 tr-section-wrapper'>
       <div className='top-section-header'>Contact</div>
       <div id='tr-section-body'>
         <div className='contact-row'>

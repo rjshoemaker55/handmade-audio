@@ -1,3 +1,4 @@
+//  "Columns" with each flex setting
 .flex-1 {
   flex: 1;
 }
@@ -17,10 +18,12 @@
   margin-bottom: 20px;
 }
 
-.contact-text {
-  margin: 10px 15px;
-}
-
+// Contact sections that are above eachother
 .contact-row + .contact-row {
   margin: 15px 0px;
+}
+
+//  Actual text inside each contact row
+.contact-text {
+  margin: 10px 15px;
 }
