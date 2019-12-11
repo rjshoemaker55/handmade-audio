@@ -3,7 +3,12 @@
     {
       "id": 1,
       "name": "Naim Audio",
-      "imageUrl": "../images/Logos/Naim_Logo.jpeg"
+      "logoUrl": "/images/Logos/Naim_Logo.jpeg"
+    },
+    {
+      "id": 2,
+      "name": "Focal",
+      "logoUrl": "/images/Logos/Focal_Logo.png"
     }
   ]
 }

@@ -11,8 +11,7 @@ body {
 }
 
 .page-wrapper {
-  padding: 0px 20px;
-  background-image: url('../images/Speakers_on_shelf.jpg');
+  background-image: url('/images/Speakers_on_shelf.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position-y: -160px;
@@ -65,8 +64,8 @@ body {
 }
 
 .top-section-wrapper {
+  margin-bottom: 20px;
   border-radius: 7px;
-
   + .top-section-wrapper {
     margin-left: 20px;
   }
@@ -95,22 +94,22 @@ body {
 #brands-section-wrapper {
   width: 100%;
   // background: rgba(237, 122, 200, 0.4);
-  margin: 30px 20px;
+  margin: 20px 20px;
   border-radius: 7px;
   padding: 20px;
+  height: 500px;
 }
 
 #brands-header {
   box-sizing: border-box;
-  background-image: url('../images/Logos/Naim-Front-View.jpeg');
+  background-image: url('/images/Logos/Naim_uniti.png');
   padding: 150px;
-  background-size: 100%;
+  background-size: auto 105%;
   background-attachment: fixed;
-  background-repeat: repeat;
-  background-position-y: 150px;
-  margin-top: 30px;
   border-top: 2px white solid;
   border-bottom: 2px white solid;
+  background-position-x: -170px;
+  background-position-y: -50px;
 }
 
 #brands-header-text {
@@ -125,23 +124,25 @@ body {
   margin: auto;
 }
 
-#brands-content-wrapper {
-  // float: left;
-  flex-grow: 1;
-}
-
-#brands-section-header {
-  padding-left: 20px;
-  width: 100%;
-}
-
 #brands-logo-container {
   width: 60%;
-  height: 100px;
-  background: rgba(237, 122, 200, 0.9);
+  background: rgba(237, 122, 200, 0.6);
   margin: auto;
   border-radius: 7px;
   box-shadow: 3px 3px black;
+  padding: 20px;
+}
+
+.brand-listing-wrapper {
+  float: left;
+
+  + .brand-listing-wrapper {
+    margin-left: 20px;
+  }
+}
+.brand-listing-logo {
+  height: 150px;
+  width: auto;
 }
 
 //  Footer section
