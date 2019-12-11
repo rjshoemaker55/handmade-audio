@@ -1,23 +1,22 @@
 {
   "files": {
-    "main.css": "/handmade-audio/static/css/main.f30cf5e7.chunk.css",
-    "main.js": "/handmade-audio/static/js/main.f08eb441.chunk.js",
-    "main.js.map": "/handmade-audio/static/js/main.f08eb441.chunk.js.map",
+    "main.css": "/handmade-audio/static/css/main.5d33403d.chunk.css",
+    "main.js": "/handmade-audio/static/js/main.b02ef2f5.chunk.js",
+    "main.js.map": "/handmade-audio/static/js/main.b02ef2f5.chunk.js.map",
     "runtime-main.js": "/handmade-audio/static/js/runtime-main.7b545a05.js",
     "runtime-main.js.map": "/handmade-audio/static/js/runtime-main.7b545a05.js.map",
-    "static/js/2.f5f91fe1.chunk.js": "/handmade-audio/static/js/2.f5f91fe1.chunk.js",
-    "static/js/2.f5f91fe1.chunk.js.map": "/handmade-audio/static/js/2.f5f91fe1.chunk.js.map",
+    "static/js/2.730ac3aa.chunk.js": "/handmade-audio/static/js/2.730ac3aa.chunk.js",
+    "static/js/2.730ac3aa.chunk.js.map": "/handmade-audio/static/js/2.730ac3aa.chunk.js.map",
     "index.html": "/handmade-audio/index.html",
-    "precache-manifest.fc9c10b616cb70188a6f72ed4b27ed1a.js": "/handmade-audio/precache-manifest.fc9c10b616cb70188a6f72ed4b27ed1a.js",
+    "precache-manifest.fd949ee1a9ad240704d10f826216f1f1.js": "/handmade-audio/precache-manifest.fd949ee1a9ad240704d10f826216f1f1.js",
     "service-worker.js": "/handmade-audio/service-worker.js",
-    "static/css/main.f30cf5e7.chunk.css.map": "/handmade-audio/static/css/main.f30cf5e7.chunk.css.map",
-    "static/js/2.f5f91fe1.chunk.js.LICENSE": "/handmade-audio/static/js/2.f5f91fe1.chunk.js.LICENSE",
-    "static/media/main.scss": "/handmade-audio/static/media/Speakers_on_shelf.e9017bdb.jpg"
+    "static/css/main.5d33403d.chunk.css.map": "/handmade-audio/static/css/main.5d33403d.chunk.css.map",
+    "static/js/2.730ac3aa.chunk.js.LICENSE": "/handmade-audio/static/js/2.730ac3aa.chunk.js.LICENSE"
   },
   "entrypoints": [
     "static/js/runtime-main.7b545a05.js",
-    "static/js/2.f5f91fe1.chunk.js",
-    "static/css/main.f30cf5e7.chunk.css",
-    "static/js/main.f08eb441.chunk.js"
+    "static/js/2.730ac3aa.chunk.js",
+    "static/css/main.5d33403d.chunk.css",
+    "static/js/main.b02ef2f5.chunk.js"
   ]
 }
