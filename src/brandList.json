@@ -1,0 +1,9 @@
+{
+  "brands": [
+    {
+      "id": 1,
+      "name": "Naim Audio",
+      "imageUrl": "../images/Logos/Naim_Logo.jpeg"
+    }
+  ]
+}

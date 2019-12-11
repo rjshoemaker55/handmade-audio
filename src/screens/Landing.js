@@ -1,9 +1,10 @@
 import React from 'react';
 
 import Navbar from '../components/Navbar';
-import LandingTopLeftSection from '../components/LandingTopLeftSection';
-import LandingTopRightSection from '../components/LandingTopRightSection';
-import { isExpressionWrapper } from '@babel/types';
+import LandingSummarySection from '../components/LandingSummarySection';
+import LandingContactSection from '../components/LandingContactSection';
+import LandingBrandsSection from '../components/LandingBrandsSection';
+
 const Landing = () => {
   return (
     <>
@@ -12,10 +13,16 @@ const Landing = () => {
         <div className='page-wrapper'>
           <div id='landing-headline'>High-end audio solutions.</div>
           <div className='row'>
-            <LandingTopLeftSection />
-            <LandingTopRightSection />
+            <LandingSummarySection />
+            <LandingContactSection />
           </div>
         </div>
+      </div>
+      <div id='brands-header'>
+        <div id='brands-header-text'>Brands we sell</div>
+      </div>
+      <div className='row'>
+        <LandingBrandsSection />
       </div>
       <div id='footer'></div>
     </>
