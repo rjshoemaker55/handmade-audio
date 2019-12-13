@@ -3,22 +3,20 @@ import React from 'react';
 import BrandListing from './BrandListing';
 const brands = require('../brandList.json');
 
-console.log(brands);
-
 const LandingBrandsSection = () => {
   return (
     <div id='brands-section-wrapper'>
       <div id='brands-logo-container'>
-        {brands.brands.map(brand => {
-          return (
+        <div id='brands-logo-wrapper'>
+          {brands.brands.map(brand => (
             <BrandListing
               key={brand.id}
               brand={brand}
               name={brand.name}
               logoUrl={brand.imageUrl}
             />
-          );
-        })}
+          ))}
+        </div>
       </div>
     </div>
   );

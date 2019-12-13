@@ -16,6 +16,7 @@ body {
   background-attachment: fixed;
   background-position-y: -160px;
   overflow: scroll;
+  padding: 20px;
 }
 
 // Sub header text on landing page
@@ -97,7 +98,7 @@ body {
   margin: 20px 20px;
   border-radius: 7px;
   padding: 20px;
-  height: 500px;
+  text-align: center;
 }
 
 #brands-header {
@@ -131,20 +132,37 @@ body {
   border-radius: 7px;
   box-shadow: 3px 3px black;
   padding: 20px;
+  height: auto;
+  overflow: auto;
+  align-items: space-evenly;
+}
+
+#brands-logo-wrapper {
+  margin: auto;
+  overflow: auto;
 }
 
 .brand-listing-wrapper {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 10px;
+  border-radius: 7px;
   float: left;
+  height: 100%;
 
   + .brand-listing-wrapper {
     margin-left: 20px;
   }
 }
 .brand-listing-logo {
-  height: 150px;
+  height: 100px;
   width: auto;
 }
 
+.brand-listing-text {
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+}
 //  Footer section
 #footer {
   position: fixed;
@@ -153,4 +171,8 @@ body {
   height: 5px;
   width: 100%;
   background: rgba(0, 0, 0, 0.9);
+}
+
+#test {
+  font-size: 85px;
 }

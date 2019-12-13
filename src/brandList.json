@@ -3,12 +3,17 @@
     {
       "id": 1,
       "name": "Naim Audio",
-      "logoUrl": "/images/Logos/Naim_Logo.jpeg"
+      "logoUrl": "/images/Logos/Naim_Logo.png"
     },
     {
       "id": 2,
       "name": "Focal",
       "logoUrl": "/images/Logos/Focal_Logo.png"
+    },
+    {
+      "id": 3,
+      "name": "IsoAcoustics",
+      "logoUrl": "/images/Logos/Iso_Acoustics_Logo.png"
     }
   ]
 }
