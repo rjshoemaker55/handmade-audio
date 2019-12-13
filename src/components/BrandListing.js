@@ -4,10 +4,14 @@ const BrandListing = props => {
   let brand = props.brand;
 
   return (
-    <div className='brand-listing-wrapper'>
+    <a
+      className='brand-listing-wrapper'
+      href={brand.websiteUrl}
+      target='_blank'
+    >
       <img className='brand-listing-logo' src={brand.logoUrl} />
       <div className='brand-listing-text'>{brand.name}</div>
-    </div>
+    </a>
   );
 };
 

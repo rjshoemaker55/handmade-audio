@@ -152,10 +152,19 @@ body {
   height: 100%;
   display: inline-block;
   margin: 10px 0px;
+  text-decoration: none;
+  color: rgb(39, 39, 39);
+  transition-duration: 0.3s;
 
   + .brand-listing-wrapper {
     margin-left: 20px;
   }
+}
+
+.brand-listing-wrapper:hover {
+  // background: rgba(255, 255, 255, 0.5);
+  background: rgba(96, 162, 212, 0.6);
+  transform: scale(1.1);
 }
 .brand-listing-logo {
   height: 100px;
@@ -169,14 +178,25 @@ body {
 }
 //  Footer section
 #footer {
-  position: fixed;
+  position: relative;
   bottom: 0;
   display: block;
-  height: 5px;
+  color: rgb(207, 207, 207);
   width: 100%;
-  background: rgba(0, 0, 0, 0.9);
+  background: rgba(0, 0, 0, 0.7);
+  padding: 20px 0px;
+  font-size: 18px;
+  text-align: center;
 }
 
-#test {
-  font-size: 85px;
+#lunar-brand {
+  font-weight: bold;
+  text-decoration: none;
+  transition-duration: 0.3s;
+  color: white;
+}
+
+#lunar-brand:hover {
+  font-size: 20px;
+  color: rgb(96, 162, 212);
 }

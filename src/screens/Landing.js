@@ -24,7 +24,12 @@ const Landing = () => {
       <div className='row'>
         <LandingBrandsSection />
       </div>
-      <div id='footer'></div>
+      <div id='footer'>
+        Created by{' '}
+        <a id='lunar-brand' href='http://www.rjshoemaker.com' target='_blank'>
+          Lunar Digital Marketing
+        </a>
+      </div>
     </>
   );
 };
