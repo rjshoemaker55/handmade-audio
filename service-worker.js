@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/handmade-audio/precache-manifest.fd949ee1a9ad240704d10f826216f1f1.js"
+  "/handmade-audio/precache-manifest.f520c92a13678381fd81917bea4e2978.js"
 );
 
 self.addEventListener('message', (event) => {
