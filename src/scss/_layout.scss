@@ -93,12 +93,13 @@ body {
 
 //  Brands section
 #brands-section-wrapper {
-  width: 100%;
+  // width: 100%;
   // background: rgba(237, 122, 200, 0.4);
   margin: 20px 20px;
   border-radius: 7px;
   padding: 20px;
   text-align: center;
+  flex: 1;
 }
 
 #brands-header {
@@ -109,8 +110,9 @@ body {
   background-attachment: fixed;
   border-top: 2px white solid;
   border-bottom: 2px white solid;
-  background-position-x: -170px;
-  background-position-y: -50px;
+  // background-position-x: -170px;
+  // background-position-y: -50px;
+  background-position: center;
 }
 
 #brands-header-text {
@@ -126,7 +128,7 @@ body {
 }
 
 #brands-logo-container {
-  width: 60%;
+  // width: 60%;
   background: rgba(237, 122, 200, 0.6);
   margin: auto;
   border-radius: 7px;
@@ -134,11 +136,12 @@ body {
   padding: 20px;
   height: auto;
   overflow: auto;
-  align-items: space-evenly;
+  width: 80%;
+  overflow: auto;
+  display: block;
 }
 
 #brands-logo-wrapper {
-  margin: auto;
   overflow: auto;
 }
 
@@ -146,8 +149,9 @@ body {
   background: rgba(255, 255, 255, 0.1);
   padding: 10px;
   border-radius: 7px;
-  float: left;
   height: 100%;
+  display: inline-block;
+  margin: 10px 0px;
 
   + .brand-listing-wrapper {
     margin-left: 20px;

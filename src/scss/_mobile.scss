@@ -40,6 +40,32 @@
   .top-section-wrapper + .top-section-wrapper {
     margin-left: auto;
   }
+
+  #brands-logo-wrapper {
+    align-items: center;
+  }
+
+  #brands-header {
+    padding: 60px 40px;
+    background-size: 100% auto;
+  }
+  #brands-header-text {
+    font-size: 40px;
+    width: 100%;
+    padding: 10px 0px;
+  }
+
+  .brand-listing-wrapper {
+    + .brand-listing-wrapper {
+      margin: 10px 0px;
+    }
+
+    .brand-listing-logo {
+      width: 100%;
+      height: auto;
+      overflow: hidden;
+    }
+  }
 }
 
 @media screen and (max-width: 768px) and (min-width: 601px) {
@@ -69,5 +95,13 @@
 
   .top-section-wrapper + .top-section-wrapper {
     margin-left: auto;
+  }
+
+  #brands-header {
+    padding: 100px;
+    background-size: 100% auto;
+  }
+  #brands-header-text {
+    width: 100%;
   }
 }
