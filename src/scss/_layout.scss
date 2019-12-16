@@ -93,8 +93,6 @@ body {
 
 //  Brands section
 #brands-section-wrapper {
-  // width: 100%;
-  // background: rgba(237, 122, 200, 0.4);
   margin: 20px 20px;
   border-radius: 7px;
   padding: 20px;
@@ -104,14 +102,12 @@ body {
 
 #brands-header {
   box-sizing: border-box;
-  background-image: url('/images/Logos/Naim_uniti.png');
+  background-image: url('/images/logos/Naim_uniti.png');
   padding: 150px;
-  background-size: auto 105%;
+  background-size: auto 100%;
   background-attachment: fixed;
   border-top: 2px white solid;
   border-bottom: 2px white solid;
-  // background-position-x: -170px;
-  // background-position-y: -50px;
   background-position: center;
 }
 

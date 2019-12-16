@@ -3,19 +3,19 @@
     {
       "id": 1,
       "name": "Naim Audio",
-      "logoUrl": "/images/Logos/Naim_Logo.png",
+      "logoUrl": "images/Logos/Naim_Logo.png",
       "websiteUrl": "https://www.naimaudio.com/"
     },
     {
       "id": 2,
       "name": "Focal",
-      "logoUrl": "/images/Logos/Focal_Logo.png",
+      "logoUrl": "images/Logos/Focal_Logo.png",
       "websiteUrl": "https://www.focal.com/us"
     },
     {
       "id": 3,
       "name": "IsoAcoustics",
-      "logoUrl": "/images/Logos/Iso_Acoustics_Logo.png",
+      "logoUrl": "images/Logos/Iso_Acoustics_Logo.png",
       "websiteUrl": "http://www.isoacoustics.com/"
     }
   ]
