@@ -2,7 +2,7 @@ import React from 'react';
 
 const Navbar = () => {
   let prevScrollpos = window.pageYOffset;
-  window.onscroll = function() {
+  window.onscroll = function () {
     let currentScrollPos = window.pageYOffset;
     if (prevScrollpos > currentScrollPos) {
       document.getElementById('nav-wrapper').style.top = '0';
@@ -14,7 +14,7 @@ const Navbar = () => {
 
   return (
     <div id='nav-wrapper'>
-      <div id='nav-text'>Handmade Audio</div>
+      <div id='nav-text'>Star Audio</div>
     </div>
   );
 };

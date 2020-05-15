@@ -11,7 +11,7 @@ const LandingTopRightSection = () => {
         </div>
         <div className='contact-row'>
           <i className='fas fa-envelope'></i>
-          <span className='contact-text'>rjshoemaker55@gmail.com</span>
+          <span className='contact-text'>staraudio@staraudio.com</span>
         </div>
       </div>
     </div>
